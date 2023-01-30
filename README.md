@@ -19,10 +19,10 @@ To write a program to perform selection sort and insertion sort using python pro
 5.	Repeat the steps 2 to 4 for sorting all the elements in the array.
 ## Program:
 i)	#Selection Sort
-```
-Program to sort the elements in the list using the Selection Sort algorithm.
-Developed by: Aadhithya.M
-RegisterNumber: 22003465
+```py
+#Program to sort the elements in the list using the Selection Sort algorithm.
+#Developed by: Aadhithya.M
+#RegisterNumber: 22003465
 def selectionSort(array, size):
     
     for ind in range(size):
@@ -41,10 +41,10 @@ selectionSort(arr, size)
 print(arr)
 ```
 ii)	#Insertion Sort
-```
-Program to sort the elements in the list using the Insertion Sort algorithm.
-Developed by:Aadhithya.M
-RegisterNumber:22003465
+```python
+#Program to sort the elements in the list using the Insertion Sort algorithm.
+#Developed by:Aadhithya.M
+#RegisterNumber:22003465
 def insertion_sort(nums):
     for i in range(1,len(nums)):
         item_to_insert=nums[i]
@@ -60,9 +60,8 @@ print(list_of_nums)
 ```
 
 ## Output:
-![s1](https://user-images.githubusercontent.com/121165812/215502534-d7f5c35b-ae4e-496e-bf9d-26e317a270df.png)
-![s2](https://user-images.githubusercontent.com/121165812/215502575-61b97302-283e-4889-89c0-c2f9a2e2e920.png)
-
+![output](s1.png)
+![output](s2.png)
 
 ## Result:
 Thus the program is written to perform selection sort and insertion sort using python programming.
